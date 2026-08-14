@@ -8,117 +8,142 @@ import {
 
 function Footer() {
   return (
-    <footer className="bg-gray-900 text-white mt-10">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-10">
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 text-center sm:text-left">
-
-          {/* Logo & About */}
-          <div className="col-span-2 md:col-span-1">
-            <div className="flex items-center justify-center sm:justify-start gap-2 mb-3">
-              <FaGraduationCap className="text-2xl sm:text-3xl text-blue-500" />
-              <h2 className="text-xl sm:text-2xl font-bold">GTU Study Desk</h2>
-            </div>
-
-            <p className="text-gray-400 text-xs sm:text-sm leading-6">
-              Your study companion for GTU students. Get study materials,
-              notes, practicals, papers and useful resources in one place.
-            </p>
-          </div>
-
-          {/* Quick Links */}
-          <div>
-            <h3 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4">
-              Quick Links
-            </h3>
-
-            <ul className="space-y-2 text-gray-400 text-sm">
-              <li>
-                <a href="#" className="hover:text-blue-500 transition">
-                  Home
-                </a>
-              </li>
-
-              <li>
-                <a href="#study-materials" className="hover:text-blue-500 transition">
-                  Study Materials
-                </a>
-              </li>
-
-              <li>
-                <a href="#" className="hover:text-blue-500 transition">
-                  Previous Papers
-                </a>
-              </li>
-
-              <li>
-                <a href="#about" className="hover:text-blue-500 transition">
-                  About Us
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Resources */}
-          <div>
-            <h3 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4">
-              Resources
-            </h3>
-
-            <ul className="space-y-2 text-gray-400 text-sm">
-              <li>Semester Notes</li>
-              <li>Practical Programs</li>
-              <li>GTU Papers</li>
-              <li>Important Questions</li>
-            </ul>
-          </div>
-
-          {/* Social */}
-          <div className="col-span-2 md:col-span-1">
-            <h3 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4">
-              Connect With Us
-            </h3>
-
-            <p className="text-gray-400 text-xs sm:text-sm mb-4">
-              Follow GTU Buddy for updates and new study materials.
-            </p>
-
-            <div className="flex gap-4 justify-center sm:justify-start">
-              <a
-                href="#"
-                className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition"
-              >
-                <FaGithub />
-              </a>
-
-              <a
-                href="#"
-                className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 transition"
-              >
-                <FaInstagram />
-              </a>
-
-              <a
-                href="#"
-                className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition"
-              >
-                <FaLinkedin />
-              </a>
-            </div>
-          </div>
-        </div>
-
-        {/* Bottom */}
-        <div className="border-t border-gray-800 mt-6 sm:mt-8 pt-5 sm:pt-6 flex flex-col md:flex-row justify-center md:justify-between items-center gap-2 sm:gap-3 text-center">
-          <p className="text-gray-500 text-xs sm:text-sm">
-            © {new Date().getFullYear()} GTU Study Desk. All rights reserved.
-          </p>
-
-          <p className="text-gray-500 text-xs sm:text-sm">
-            Made with ❤️ for GTU Students
-          </p>
-        </div>
+    <div className="w-full mt-16">
+      {/* 🌊 Animated Wave Container (Positioned right above footer) */}
+      <div className="w-full h-20 sm:h-28 md:h-36 overflow-hidden leading-none pointer-events-none">
+        <svg
+          viewBox="0 0 1000 200"
+          preserveAspectRatio="none"
+          className="w-full h-full block"
+        >
+          <path
+            d="M0,200 L0.0,100.0 C 6.3,103.0 18.8,108.9 25.0,111.9 C 31.3,113.6 43.8,116.8 50.0,118.5 C 56.3,118.2 68.8,117.4 75.0,117.1 C 81.3,114.8 93.8,110.3 100.0,108.1 C 106.3,105.0 118.8,98.7 125.0,95.6 C 131.3,92.9 143.8,87.7 150.0,85.0 C 156.3,84.0 168.8,82.0 175.0,81.0 C 181.3,82.1 193.8,84.2 200.0,85.3 C 206.3,88.0 218.8,93.4 225.0,96.1 C 231.3,99.2 243.8,105.5 250.0,108.6 C 256.3,110.8 268.8,115.1 275.0,117.3 C 281.3,117.6 293.8,118.1 300.0,118.4 C 306.3,116.7 318.8,113.2 325.0,111.5 C 331.3,108.5 343.8,102.5 350.0,99.5 C 356.3,96.6 368.8,90.7 375.0,87.8 C 381.3,86.2 393.8,83.0 400.0,81.4 C 406.3,81.8 418.8,82.7 425.0,83.1 C 431.3,85.4 443.8,90.0 450.0,92.3 C 456.3,95.5 468.8,101.8 475.0,104.9 C 481.3,107.5 493.8,112.7 500.0,115.3 C 506.3,116.2 518.8,118.1 525.0,119.0 C 531.3,117.8 543.8,115.6 550.0,114.4 C 556.3,111.7 568.8,106.2 575.0,103.5 C 581.3,100.4 593.8,94.1 600.0,91.0 C 606.3,88.9 618.8,84.6 625.0,82.5 C 631.3,82.3 643.8,81.9 650.0,81.7 C 656.3,83.5 668.8,87.1 675.0,88.9 C 681.3,91.9 693.8,98.0 700.0,101.0 C 706.3,103.9 718.8,109.7 725.0,112.6 C 731.3,114.1 743.8,117.2 750.0,118.7 C 756.3,118.2 768.8,117.1 775.0,116.6 C 781.3,114.3 793.8,109.5 800.0,107.2 C 806.3,104.1 818.8,97.8 825.0,94.7 C 831.3,92.1 843.8,87.0 850.0,84.4 C 856.3,83.6 868.8,81.8 875.0,81.0 C 881.3,82.2 893.8,84.7 900.0,85.9 C 906.3,88.7 918.8,94.2 925.0,97.0 C 931.3,100.1 943.8,106.3 950.0,109.4 C 956.3,111.5 968.8,115.6 975.0,117.7 C 981.3,117.8 993.8,118.1 1000.0,118.2 C 1006.3,116.3 1018.8,112.6 1025.0,110.7 L1000.0,200.0 L0,200.0Z"
+            fill="#111827"
+          >
+            <animate
+              attributeName="d"
+              dur="3.0s"
+              repeatCount="indefinite"
+              values="M0,200 L0.0,100.0 C 6.3,103.0 18.8,108.9 25.0,111.9 C 31.3,113.6 43.8,116.8 50.0,118.5 C 56.3,118.2 68.8,117.4 75.0,117.1 C 81.3,114.8 93.8,110.3 100.0,108.1 C 106.3,105.0 118.8,98.7 125.0,95.6 C 131.3,92.9 143.8,87.7 150.0,85.0 C 156.3,84.0 168.8,82.0 175.0,81.0 C 181.3,82.1 193.8,84.2 200.0,85.3 C 206.3,88.0 218.8,93.4 225.0,96.1 C 231.3,99.2 243.8,105.5 250.0,108.6 C 256.3,110.8 268.8,115.1 275.0,117.3 C 281.3,117.6 293.8,118.1 300.0,118.4 C 306.3,116.7 318.8,113.2 325.0,111.5 C 331.3,108.5 343.8,102.5 350.0,99.5 C 356.3,96.6 368.8,90.7 375.0,87.8 C 381.3,86.2 393.8,83.0 400.0,81.4 C 406.3,81.8 418.8,82.7 425.0,83.1 C 431.3,85.4 443.8,90.0 450.0,92.3 C 456.3,95.5 468.8,101.8 475.0,104.9 C 481.3,107.5 493.8,112.7 500.0,115.3 C 506.3,116.2 518.8,118.1 525.0,119.0 C 531.3,117.8 543.8,115.6 550.0,114.4 C 556.3,111.7 568.8,106.2 575.0,103.5 C 581.3,100.4 593.8,94.1 600.0,91.0 C 606.3,88.9 618.8,84.6 625.0,82.5 C 631.3,82.3 643.8,81.9 650.0,81.7 C 656.3,83.5 668.8,87.1 675.0,88.9 C 681.3,91.9 693.8,98.0 700.0,101.0 C 706.3,103.9 718.8,109.7 725.0,112.6 C 731.3,114.1 743.8,117.2 750.0,118.7 C 756.3,118.2 768.8,117.1 775.0,116.6 C 781.3,114.3 793.8,109.5 800.0,107.2 C 806.3,104.1 818.8,97.8 825.0,94.7 C 831.3,92.1 843.8,87.0 850.0,84.4 C 856.3,83.6 868.8,81.8 875.0,81.0 C 881.3,82.2 893.8,84.7 900.0,85.9 C 906.3,88.7 918.8,94.2 925.0,97.0 C 931.3,100.1 943.8,106.3 950.0,109.4 C 956.3,111.5 968.8,115.6 975.0,117.7 C 981.3,117.8 993.8,118.1 1000.0,118.2 C 1006.3,116.3 1018.8,112.6 1025.0,110.7 L1000.0,200.0 L0,200.0Z;
+                      M0,200 L0.0,100.0 C 6.3,97.0 18.8,91.1 25.0,88.1 C 31.3,86.4 43.8,83.2 50.0,81.5 C 56.3,81.8 68.8,82.6 75.0,82.9 C 81.3,85.2 93.8,89.7 100.0,91.9 C 106.3,95.0 118.8,101.3 125.0,104.4 C 131.3,107.1 143.8,112.3 150.0,115.0 C 156.3,116.0 168.8,118.0 175.0,119.0 C 181.3,117.9 193.8,115.8 200.0,114.7 C 206.3,112.0 218.8,106.6 225.0,103.9 C 231.3,100.8 243.8,94.5 250.0,91.4 C 256.3,89.2 268.8,84.9 275.0,82.7 C 281.3,82.4 293.8,81.9 300.0,81.6 C 306.3,83.3 318.8,86.8 325.0,88.5 C 331.3,91.5 343.8,97.5 350.0,100.5 C 356.3,103.4 368.8,109.3 375.0,112.2 C 381.3,113.8 393.8,117.0 400.0,118.6 C 406.3,118.2 418.8,117.3 425.0,116.9 C 431.3,114.6 443.8,110.0 450.0,107.7 C 456.3,104.5 468.8,98.3 475.0,95.1 C 481.3,92.5 493.8,87.3 500.0,84.7 C 506.3,83.8 518.8,81.9 525.0,81.0 C 531.3,82.2 543.8,84.4 550.0,85.6 C 556.3,88.3 568.8,93.8 575.0,96.5 C 581.3,99.6 593.8,105.9 600.0,109.0 C 606.3,111.1 618.8,115.4 625.0,117.5 C 631.3,117.7 643.8,118.1 650.0,118.3 C 656.3,116.5 668.8,112.9 675.0,111.1 C 681.3,108.1 693.8,102.0 700.0,99.0 C 706.3,96.1 718.8,90.3 725.0,87.4 C 731.3,85.9 743.8,82.8 750.0,81.3 C 756.3,81.8 768.8,82.9 775.0,83.4 C 781.3,85.8 793.8,90.5 800.0,92.8 C 806.3,95.9 818.8,102.2 825.0,105.3 C 831.3,107.9 843.8,113.0 850.0,115.6 C 856.3,116.4 868.8,118.2 875.0,119.0 C 881.3,117.8 893.8,115.3 900.0,114.1 C 906.3,111.3 918.8,105.8 925.0,103.0 C 931.3,99.9 943.8,93.7 950.0,90.6 C 956.3,88.5 968.8,84.4 975.0,82.3 C 981.3,82.2 993.8,81.9 1000.0,81.8 C 1006.3,83.7 1018.8,87.4 1025.0,89.3 L1000.0,200.0 L0,200.0Z;
+                      M0,200 L0.0,100.0 C 6.3,103.0 18.8,108.9 25.0,111.9 C 31.3,113.6 43.8,116.8 50.0,118.5 C 56.3,118.2 68.8,117.4 75.0,117.1 C 81.3,114.8 93.8,110.3 100.0,108.1 C 106.3,105.0 118.8,98.7 125.0,95.6 C 131.3,92.9 143.8,87.7 150.0,85.0 C 156.3,84.0 168.8,82.0 175.0,81.0 C 181.3,82.1 193.8,84.2 200.0,85.3 C 206.3,88.0 218.8,93.4 225.0,96.1 C 231.3,99.2 243.8,105.5 250.0,108.6 C 256.3,110.8 268.8,115.1 275.0,117.3 C 281.3,117.6 293.8,118.1 300.0,118.4 C 306.3,116.7 318.8,113.2 325.0,111.5 C 331.3,108.5 343.8,102.5 350.0,99.5 C 356.3,96.6 368.8,90.7 375.0,87.8 C 381.3,86.2 393.8,83.0 400.0,81.4 C 406.3,81.8 418.8,82.7 425.0,83.1 C 431.3,85.4 443.8,90.0 450.0,92.3 C 456.3,95.5 468.8,101.8 475.0,104.9 C 481.3,107.5 493.8,112.7 500.0,115.3 C 506.3,116.2 518.8,118.1 525.0,119.0 C 531.3,117.8 543.8,115.6 550.0,114.4 C 556.3,111.7 568.8,106.2 575.0,103.5 C 581.3,100.4 593.8,94.1 600.0,91.0 C 606.3,88.9 618.8,84.6 625.0,82.5 C 631.3,82.3 643.8,81.9 650.0,81.7 C 656.3,83.5 668.8,87.1 675.0,88.9 C 681.3,91.9 693.8,98.0 700.0,101.0 C 706.3,103.9 718.8,109.7 725.0,112.6 C 731.3,114.1 743.8,117.2 750.0,118.7 C 756.3,118.2 768.8,117.1 775.0,116.6 C 781.3,114.3 793.8,109.5 800.0,107.2 C 806.3,104.1 818.8,97.8 825.0,94.7 C 831.3,92.1 843.8,87.0 850.0,84.4 C 856.3,83.6 868.8,81.8 875.0,81.0 C 881.3,82.2 893.8,84.7 900.0,85.9 C 906.3,88.7 918.8,94.2 925.0,97.0 C 931.3,100.1 943.8,106.3 950.0,109.4 C 956.3,111.5 968.8,115.6 975.0,117.7 C 981.3,117.8 993.8,118.1 1000.0,118.2 C 1006.3,116.3 1018.8,112.6 1025.0,110.7 L1000.0,200.0 L0,200.0Z"
+            />
+          </path>
+        </svg>
       </div>
-    </footer>
+
+      {/* 🖤 Main Footer */}
+      <footer className="bg-gray-900 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-10">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 text-center sm:text-left">
+            {/* Logo & About */}
+            <div className="col-span-2 md:col-span-1">
+              <div className="flex items-center justify-center sm:justify-start gap-2 mb-3">
+                <FaGraduationCap className="text-2xl sm:text-3xl text-blue-500" />
+                <h2 className="text-xl sm:text-2xl font-bold">GTU Study Desk</h2>
+              </div>
+
+              <p className="text-gray-400 text-xs sm:text-sm leading-6">
+                Your study companion for GTU students. Get study materials,
+                notes, practicals, papers and useful resources in one place.
+              </p>
+            </div>
+
+            {/* Quick Links */}
+            <div>
+              <h3 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4">
+                Quick Links
+              </h3>
+
+              <ul className="space-y-2 text-gray-400 text-sm">
+                <li>
+                  <a href="#" className="hover:text-blue-500 transition">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#study-materials"
+                    className="hover:text-blue-500 transition"
+                  >
+                    Study Materials
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-blue-500 transition">
+                    Previous Papers
+                  </a>
+                </li>
+                <li>
+                  <a href="#about" className="hover:text-blue-500 transition">
+                    About Us
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Resources */}
+            <div>
+              <h3 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4">
+                Resources
+              </h3>
+
+              <ul className="space-y-2 text-gray-400 text-sm">
+                <li>Semester Notes</li>
+                <li>Practical Programs</li>
+                <li>GTU Papers</li>
+                <li>Important Questions</li>
+              </ul>
+            </div>
+
+            {/* Social */}
+            <div className="col-span-2 md:col-span-1">
+              <h3 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4">
+                Connect With Us
+              </h3>
+
+              <p className="text-gray-400 text-xs sm:text-sm mb-4">
+                Follow GTU Buddy for updates and new study materials.
+              </p>
+
+              <div className="flex gap-4 justify-center sm:justify-start">
+                <a
+                  href="#"
+                  className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition"
+                >
+                  <FaGithub />
+                </a>
+
+                <a
+                  href="#"
+                  className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 transition"
+                >
+                  <FaInstagram />
+                </a>
+
+                <a
+                  href="#"
+                  className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition"
+                >
+                  <FaLinkedin />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Bottom */}
+          <div className="border-t border-gray-800 mt-6 sm:mt-8 pt-5 sm:pt-6 flex flex-col md:flex-row justify-center md:justify-between items-center gap-2 sm:gap-3 text-center">
+            <p className="text-gray-500 text-xs sm:text-sm">
+              © {new Date().getFullYear()} GTU Study Desk. All rights reserved.
+            </p>
+
+            <p className="text-gray-500 text-xs sm:text-sm">
+              Made with ❤️ for GTU Students
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
   );
 }
 

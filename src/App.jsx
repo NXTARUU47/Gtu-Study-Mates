@@ -10,6 +10,11 @@ import Contact from "./components/Contact";
 import Semester1 from "./Semesters/Semester1";
 import Semester2 from "./Semesters/Semester2";
 import Semester3 from "./Semesters/Semester3";
+import Semester4 from "./Semesters/Semester4";
+import Semester5 from "./Semesters/Semester5";
+import Semester6 from "./Semesters/Semester6";
+import Semester7 from "./Semesters/Semester7";
+import Semester8 from "./Semesters/Semester8";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -38,6 +43,11 @@ function Layout() {
           <Route path="/semester-1" element={<Semester1 />} />
           <Route path="/semester-2" element={<Semester2 />} />
           <Route path="/semester-3" element={<Semester3 />} />
+          <Route path="/semester-4" element={<Semester4 />} />
+          <Route path="/semester-5" element={<Semester5 />} />
+          <Route path="/semester-6" element={<Semester6 />} />
+          <Route path="/semester-7" element={<Semester7 />} />
+          <Route path="/semester-8" element={<Semester8 />} />
 
           {/* Contact Page */}
           <Route path="/contact" element={<Contact />} />

@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { IoIosSearch } from "react-icons/io";
 import { TbMenu2 } from "react-icons/tb";
 import { IoClose } from "react-icons/io5";
-
+// import logo from "././public/icon3.png";
 function Header() {
   const navItems = [
     { to: "#home", label: "Home" },
@@ -32,8 +32,8 @@ function Header() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 group">
           {/* Logo Icon */}
-          <div className="w-10 h-10 md:w-11 md:h-11 rounded-xl bg-gradient-to-br from-indigo-500 to-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-indigo-100 group-hover:scale-105 transition-transform duration-200">
-            G
+          <div>
+            <img src="/icon3.png" alt="" />
           </div>
 
           {/* Logo Text */}
