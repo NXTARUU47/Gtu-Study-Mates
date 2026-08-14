@@ -1,0 +1,129 @@
+import React from "react";
+
+function Hero() {
+  return (
+    <section
+      id="home"
+      className="relative min-h-[calc(100vh-78px)] pt-28 pb-16 px-4 sm:px-6 lg:px-10 bg-gradient-to-br from-indigo-50 via-white to-teal-50 overflow-hidden"
+    >
+      {/* Background Decorations */}
+      <div className="absolute top-20 left-10 w-32 h-32 bg-indigo-200/30 rounded-full blur-3xl" />
+      <div className="absolute bottom-10 right-10 w-40 h-40 bg-teal-200/30 rounded-full blur-3xl" />
+
+      <div className="relative max-w-[1200px] mx-auto min-h-[calc(100vh-150px)] flex items-center">
+        <div className="w-full grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          {/* Hero Content */}
+          <div className="text-center lg:text-left">
+            {/* Badge */}
+            <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 rounded-full bg-white border border-indigo-100 shadow-sm">
+              <span className="w-2 h-2 rounded-full bg-teal-500 animate-pulse" />
+
+              <span className="text-sm font-semibold text-slate-600">
+                🎓 Made for GTU Students
+              </span>
+            </div>
+
+            {/* Heading */}
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight text-slate-800">
+              Your GTU Journey
+              <br />
+              <span className="bg-gradient-to-r from-indigo-500 to-teal-500 bg-clip-text text-transparent">
+                Starts Here.
+              </span>
+            </h1>
+
+            {/* Description */}
+            <p className="mt-6 max-w-xl mx-auto lg:mx-0 text-base sm:text-lg text-slate-500 leading-relaxed">
+              Find GTU study materials, previous year papers, notes, syllabus
+              and useful resources — all in one simple place.
+            </p>
+
+            {/* Buttons */}
+            <div className="mt-8 flex flex-col sm:flex-row items-center lg:justify-start justify-center gap-4">
+              <a
+                href="#study-materials"
+                className="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-gradient-to-r from-indigo-500 to-indigo-600 text-white font-semibold shadow-lg shadow-indigo-200 hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200"
+              >
+                Explore Study Materials →
+              </a>
+
+              <a
+                href="#about"
+                className="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-white border border-slate-200 text-slate-700 font-semibold hover:border-indigo-300 hover:text-indigo-600 hover:bg-indigo-50/50 transition-all duration-200"
+              >
+                Learn More
+              </a>
+            </div>
+
+            {/* Small Stats */}
+            <div className="mt-10 flex flex-wrap justify-center lg:justify-start gap-6 sm:gap-8">
+              <div>
+                <h3 className="text-2xl font-bold text-indigo-600">8+</h3>
+                <p className="text-sm text-slate-500">Semesters</p>
+              </div>
+
+              <div className="w-px h-10 bg-slate-200 hidden sm:block" />
+
+              <div>
+                <h3 className="text-2xl font-bold text-teal-500">100+</h3>
+                <p className="text-sm text-slate-500">Resources</p>
+              </div>
+
+              <div className="w-px h-10 bg-slate-200 hidden sm:block" />
+
+              <div>
+                <h3 className="text-2xl font-bold text-amber-500">GTU</h3>
+                <p className="text-sm text-slate-500">Focused</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Hero Visual */}
+          <div className="hidden lg:flex justify-center">
+            <div className="relative w-[430px] h-[430px]">
+              {/* Main Circle */}
+              <div className="absolute inset-8 rounded-full bg-gradient-to-br from-indigo-100 to-teal-100" />
+
+              {/* Center Card */}
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="w-64 h-64 rounded-3xl bg-white border border-slate-100 shadow-2xl shadow-indigo-100 flex flex-col items-center justify-center">
+                  <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-indigo-500 to-indigo-600 text-white flex items-center justify-center text-4xl font-extrabold shadow-lg shadow-indigo-200">
+                    G
+                  </div>
+
+                  <h2 className="mt-5 text-2xl font-extrabold text-slate-800">
+                    GTU StudyDesk
+                  </h2>
+
+                  <p className="mt-1 text-sm text-slate-500">
+                    Learn • Prepare • Succeed
+                  </p>
+                </div>
+              </div>
+
+              {/* Floating Cards */}
+
+              <div className="absolute top-8 right-0 px-5 py-3 bg-white rounded-2xl shadow-lg border border-slate-100">
+                <p className="text-sm font-semibold text-slate-700">📚 Notes</p>
+              </div>
+
+              <div className="absolute bottom-14 left-0 px-5 py-3 bg-white rounded-2xl shadow-lg border border-slate-100">
+                <p className="text-sm font-semibold text-slate-700">
+                  📄 Previous Papers
+                </p>
+              </div>
+
+              <div className="absolute bottom-2 right-10 px-5 py-3 bg-white rounded-2xl shadow-lg border border-slate-100">
+                <p className="text-sm font-semibold text-slate-700">
+                  🎯 Exam Prep
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Hero;
