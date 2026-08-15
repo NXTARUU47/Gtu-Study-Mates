@@ -20,11 +20,6 @@ import {
 
 function Semester4() {
   const [selectedSubject, setSelectedSubject] = useState(null);
-
-  // ==========================================
-  // SEMESTER 3 SUBJECTS + INDIVIDUAL LINKS
-  // ==========================================
-
   const subjects = [
     {
       id: 1,
@@ -35,19 +30,18 @@ function Semester4() {
 
       materials: {
         syllabus:
-          "https://drive.google.com/drive/folders/1749Un0BC-UTgJHCjUCwDajLeC7DyNcZE",
+          "https://drive.google.com/drive/folders/1NO63wf6glr1hhx4eHUFpjvLMTpYtWPgn",
         papers:
-          "https://drive.google.com/drive/folders/1F0umpnm4JlzA0TBHQg5gY87SydnmEQ02",
+          "https://drive.google.com/drive/folders/1V72A0dS1NvC3P6ym1HDq8E-TtaN-saQs",
         solutions:
-          "https://drive.google.com/drive/folders/1fHmIw0otbQuWbEllnxoMl8u-mYrl0LpB",
-        imp: "https://drive.google.com/drive/folders/1QUT9ZoWvoB9yP3r6ZT8BTPxymorBQGmA",
+          "https://drive.google.com/drive/folders/1qNAD8ZdcAFcuErLWt5ObhHDbomtGMYcG",
+        imp: "https://drive.google.com/drive/folders/1pyzQ2KA8arBLrMlUp1hblzSxV31Bz-0S",
         impQna:
-          "https://drive.google.com/drive/folders/1cKiUNGadOOahE7S5z8NenbTSbu6VvjGy",
-        ppt: "https://drive.google.com/drive/folders/1T5lTFV3m5W_z_qSVbp59SsyNdILBmp_T",
-        book: "https://drive.google.com/drive/folders/1ebcpwOxVNKKF0uriAniRH1297sw_WLvB",
-        notes:
-          "https://drive.google.com/drive/folders/1SPXTdFkddq6Ox0bX47svxsdfX9FatKjq",
-        lab: "https://drive.google.com/drive/folders/1vYNjn2QyvvQkWR4TUR4kWQ4PJbwLNdh3",
+          "https://drive.google.com/drive/folders/1pyzQ2KA8arBLrMlUp1hblzSxV31Bz-0S",
+        ppt: "https://drive.google.com/drive/folders/1AWap0AMh7KOUz0joMcnCBcmLKRjbJZNr",
+        book: "https://drive.google.com/drive/folders/1f4o1G7XzHSO3s5laFs5WtyzMok2KtEuW",
+        notes: "#",
+        lab: "https://drive.google.com/drive/folders/1HY9Ci_K2hxnnvVUCgvtTAR4t_zphmS0G",
       },
     },
     {
@@ -58,19 +52,19 @@ function Semester4() {
       color: "teal",
       materials: {
         syllabus:
-          "https://drive.google.com/drive/folders/1jRSSfb092YKrtJyCTzMZDSB_rKoIWy12",
+          "https://drive.google.com/drive/folders/1jbf-b5JDk5Sql2P0vQxwe5vU2mIH68gz",
         papers:
-          "https://drive.google.com/drive/folders/1p2h6JsXAAuFi3SsgN1FX-A-A57SS6C27",
+          "https://drive.google.com/drive/folders/1PD_-lDJ-j1JStXi7lwgP8bQ8uGWUQhSe",
         solutions:
-          "https://drive.google.com/drive/folders/1wa6_U7v24sPX_dyN_oe0Ow8i5vMd1p77",
-        imp: "https://drive.google.com/drive/folders/1t7HcTs-Z1s_IRV-xz8REpz5wdHh2BZMx",
+          "https://drive.google.com/drive/folders/1hk7G7FrRJ25WOUv8gzt26AvUuz6fSCVK",
+        imp: "https://drive.google.com/drive/folders/1eCFojVbFH1uOkgWe1P1KBeUetOx6eMBE",
         impQna:
-          "https://drive.google.com/drive/folders/1Cb3-5rbxUrLj8H-WdCq5F_QMG1Zr6lYr",
-        ppt: "https://drive.google.com/drive/folders/1sAX10h6qVv8IaJaX866Imtg8rWKP4HfM",
-        book: "https://drive.google.com/drive/folders/1gkve11Qj3Lv6b28Q410netjHz1w83fGd",
+          "https://drive.google.com/drive/folders/1w75KdqKyCFdnAJ-Z-cfKnFXrVi5IU1YA",
+        ppt: "https://drive.google.com/drive/folders/1_KJVuw9eKVPIQU6qC5neviEnV2OgSofN",
+        book: "https://drive.google.com/drive/folders/13fI7xqApTA6XJzPe-kZg6ysdCG_Duuil",
         notes:
-          "https://drive.google.com/drive/folders/15FbKiBmPDLg8WwMeo3wsB9BFR4Mnplhu",
-        lab: "https://drive.google.com/drive/folders/11YYOuaCQcywbll1z0I0byR4emv1v_RM8",
+          "https://drive.google.com/drive/folders/1x1ydwgBVgdg9DZd2UVVh8ofqlAUA1G3a",
+        lab: "https://drive.google.com/drive/folders/1qfAec0A94dyKAGkwSGwRXQM88bnNW1vE",
       },
     },
     {
@@ -82,29 +76,29 @@ function Semester4() {
 
       materials: {
         youtube:
-          "https://youtube.com/playlist?list=PLNiD0MJqUzyH_-yB1f3kfrKve9snu72bB",
+          "https://youtube.com/playlist?list=PLNiD0MJqUzyFUWvkquMNIckIrLIh4RuTf",
 
         syllabus:
-          "https://drive.google.com/drive/folders/1Zh7ILGJO2z3jKkbBqVdq51-HmD9KQMKx",
+          "https://drive.google.com/drive/folders/18Jsm7lP8Rl9J8YVBtPMnt-F_7VMWq5AY",
 
         papers:
-          "https://drive.google.com/drive/folders/15WvMNVEhKUt53j_UXg6jNAvPthk88zKi",
+          "https://drive.google.com/drive/folders/1VfmXtbYY7c0kdLkyQy7J-B7yia3hglcR",
 
         solutions:
-          "https://drive.google.com/drive/folders/1tZXpeRPerxuncPPCo0M1OwvNq-2z8x32",
+          "https://drive.google.com/drive/folders/1nf0Qneo3EdNAUlNQXiRJTdHgBlt4iCoA",
 
-        imp: "https://drive.google.com/drive/folders/1Zmul0KRFI-AL4RwBkgU3rReMLCHdBcps",
+        imp: "https://drive.google.com/drive/folders/1zYN4ZEyMW8Oh9hAvyzwxOwNNI-za-pJ5",
 
-        mimp: "https://drive.google.com/drive/folders/1X3u3xjoY8VOUN-GS9ClGCimSHQuuq2qR",
+        mimp: "https://drive.google.com/drive/folders/1zYN4ZEyMW8Oh9hAvyzwxOwNNI-za-pJ5",
 
-        ppt: "https://drive.google.com/drive/folders/1rdHPgOIczmkTU4py1lYhM0_VkCGJTKHH",
+        ppt: "https://drive.google.com/drive/folders/1SQfEnLDkwk1kNEw5SiGo5j3ogrVZtEYC",
 
-        book: "https://drive.google.com/drive/folders/1gsYhcAnsxl1ODt1Nud_HVgXhOHYQ8JVd",
+        book: "https://drive.google.com/drive/folders/1hIN3TWFUq4x0bDlHAQD3hjRe4MAvjFDI",
 
         notes:
-          "https://drive.google.com/drive/folders/1ZsTjdeBBr8rveywfHv91NycE6_jgmYWK",
+          "https://drive.google.com/drive/folders/1EMhZoCeClm3qsdOPGnepu4jptDI2J3le",
 
-        lab: "https://drive.google.com/drive/folders/1ASNqGd7g27ZjaKE1Wo8ia4U4pmoEpu5k",
+        lab: "https://drive.google.com/drive/folders/1FT5HcqNKiSKzIA-X1UmljL_uvsAeqEr6",
       },
     },
     {
@@ -116,18 +110,17 @@ function Semester4() {
 
       materials: {
         syllabus:
-          "https://drive.google.com/drive/folders/1WxQgCaUSUmvrJoHzIKuBBEJ-X35oeoR9",
+          "https://drive.google.com/drive/folders/1b_vVWxeBa_pmJFgAQaa6I4yJXcaSSbcI",
 
         papers:
-          "https://drive.google.com/drive/folders/1zr1pFvymYkOGQFod75cG18-bCAeHbPFd",
+          "https://drive.google.com/drive/folders/1IhVJerRZInaAdRpGyN0OWFOfypyYMDKT",
 
-        book: "https://drive.google.com/drive/folders/1uwU7SfcytTjxpqtGSB9hb0mbuGqfC_u8",
+        book: "https://drive.google.com/drive/folders/1jhdrCv-kXQ7UYWX2y1FztlMZloHupndf",
 
         notes:
-          "https://drive.google.com/drive/folders/10kKYxr6wbUQSd5D5EVSnWooZzhMj9-H9",
-
-        // No links provided yet
-        solutions: "#",
+          "https://drive.google.com/drive/folders/1F2F4_PegmDqb8cEVwW12f61OWWGNkM4m",
+        solutions:
+          "https://youtube.com/playlist?list=PLNiD0MJqUzyF3tPWHknwMGn1OTb4ba6Ji",
         imp: "#",
         mimp: "#",
         ppt: "#",
@@ -141,29 +134,16 @@ function Semester4() {
       code: "3130706",
       icon: <FaGlobe />,
       color: "blue",
-
       materials: {
         syllabus:
-          "https://drive.google.com/drive/folders/1fYAtrRAE7N9nPBANIGcu_RN1OykxV2IR",
-
-        papers:
-          "https://drive.google.com/drive/folders/1L4FR3g3ggBAHdyaeENGWerQiHWrSHbXZ",
-
-        solutions:
-          "https://drive.google.com/drive/folders/1ptNH4Uk0tMxeVmHYk4ZFNuLrr1QvtjI7",
-
-        imp: "https://drive.google.com/drive/folders/1ny6ry2CUXRcJmya3b6t37qpEjerTIuIq",
-
-        impQna:
-          "https://drive.google.com/drive/folders/1MAK173sFBkdCEKT3q0pOkyzhOd5zS0nJ",
-
-        ppt: "https://drive.google.com/drive/folders/1namZKAD5FoUkyf7OTa7xlVZ18-j3KFW5",
-
-        book: "https://drive.google.com/drive/folders/1udweaPUMxfTE9oXgAz4OqJ1sYLMcuqca",
-
-        notes:
-          "https://drive.google.com/drive/folders/1-RBJAZrU89sKYgdGEDgxnwj7Ownrn08H",
-
+          "https://drive.google.com/drive/folders/1AJHp0sEq--82N2-ZXWiBi69oc8xq4y8t",
+        papers: "#",
+        solutions: "#",
+        imp: "#",
+        impQna: "#",
+        ppt: "#",
+        book: "#",
+        notes: "#",
         lab: "#",
       },
     },
@@ -176,35 +156,30 @@ function Semester4() {
 
       materials: {
         syllabus:
-          "https://drive.google.com/drive/folders/1fYAtrRAE7N9nPBANIGcu_RN1OykxV2IR",
+          "https://drive.google.com/drive/folders/1hT4j4s026tdNfTW3x3BWiFA73oh8YPIK",
 
         papers:
-          "https://drive.google.com/drive/folders/1L4FR3g3ggBAHdyaeENGWerQiHWrSHbXZ",
+          "https://drive.google.com/drive/folders/1mBUq3kiEzl7Vj1IV2F1Jgbwdn4zJh4S9",
 
         solutions:
-          "https://drive.google.com/drive/folders/1ptNH4Uk0tMxeVmHYk4ZFNuLrr1QvtjI7",
+          "https://drive.google.com/drive/folders/14Drq5Bidg-YqaSlVo6UrT6J6mnRSpCCW",
 
-        imp: "https://drive.google.com/drive/folders/1ny6ry2CUXRcJmya3b6t37qpEjerTIuIq",
+        imp: "https://drive.google.com/drive/folders/1EuvO5bnYnI_bZJnVbZyN_sw4z9WokyF2",
 
         impQna:
-          "https://drive.google.com/drive/folders/1MAK173sFBkdCEKT3q0pOkyzhOd5zS0nJ",
+          "https://drive.google.com/drive/folders/1UmGOPsbcF4fwOD9E_u14jrIRluyE2pO5",
 
-        ppt: "https://drive.google.com/drive/folders/1namZKAD5FoUkyf7OTa7xlVZ18-j3KFW5",
+        ppt: "https://drive.google.com/drive/folders/1CvqpJ4YGEjC8KulyBogersoAyXLBwz7C",
 
-        book: "https://drive.google.com/drive/folders/1udweaPUMxfTE9oXgAz4OqJ1sYLMcuqca",
+        book: "https://drive.google.com/drive/folders/1zuzgyuNr4ujpzzmXxaWc53wru47H-Smw",
 
         notes:
-          "https://drive.google.com/drive/folders/1-RBJAZrU89sKYgdGEDgxnwj7Ownrn08H",
+          "https://drive.google.com/drive/folders/1M-DSWbNEu1qNqLQTNqdtuQ9GsFHChGz8",
 
-        lab: "#",
+        lab: "https://drive.google.com/drive/folders/1zenSuZYviRs4peo-ydxuSlZcsymwhWrs",
       },
     },
-    
   ];
-
-  // ==========================================
-  // MATERIAL CARD INFORMATION
-  // ==========================================
 
   const materialTypes = [
     {
@@ -271,10 +246,6 @@ function Semester4() {
     },
   ];
 
-  // ==========================================
-  // COLORS
-  // ==========================================
-
   const colorStyles = {
     indigo: {
       icon: "bg-indigo-100 text-indigo-600",
@@ -321,10 +292,6 @@ function Semester4() {
       className="min-h-screen py-20 sm:py-24 px-4 sm:px-6 lg:px-10 bg-slate-50"
     >
       <div className="max-w-[1200px] mx-auto">
-        {/* ==========================================
-            SUBJECT LIST
-        ========================================== */}
-
         {!selectedSubject && (
           <>
             <div className="text-center max-w-2xl mx-auto">
@@ -344,13 +311,9 @@ function Semester4() {
                 important questions and other study materials.
               </p>
             </div>
-
-            {/* SUBJECT CARDS */}
-
             <div className="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {subjects.map((subject) => {
                 const styles = colorStyles[subject.color];
-
                 return (
                   <button
                     key={subject.id}
@@ -366,15 +329,12 @@ function Semester4() {
 
                       <FaArrowRight className="text-slate-300 group-hover:text-indigo-500 group-hover:translate-x-1 transition-all" />
                     </div>
-
                     <h3 className="mt-6 text-xl font-extrabold text-slate-800">
                       {subject.name}
                     </h3>
-
                     <p className="mt-2 text-sm text-slate-400">
                       Subject Code: {subject.code}
                     </p>
-
                     <div
                       className={`mt-5 inline-flex px-4 py-2 rounded-lg text-sm font-semibold transition-all ${styles.button}`}
                     >
@@ -387,17 +347,11 @@ function Semester4() {
           </>
         )}
 
-        {/* ==========================================
-            SELECTED SUBJECT
-        ========================================== */}
-
         {selectedSubject && (
           <>
-            {/* BACK BUTTON */}
-
             <button
               onClick={() => setSelectedSubject(null)}
-              className="mb-8 inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white border border-slate-200 text-slate-600 hover:text-indigo-600 hover:border-indigo-200 transition"
+              className="mb-8 inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white border border-slate-200 text-slate-600 hover:text-indigo-600 hover:border-indigo-200 transition cursor-pointer"
             >
               <FaArrowLeft />
               Back to Subjects
@@ -470,7 +424,7 @@ function Semester4() {
         )}
       </div>
     </section>
-  )
+  );
 }
 
 export default Semester4;

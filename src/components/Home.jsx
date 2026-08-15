@@ -15,8 +15,6 @@ function Home() {
       <About/>
       <StudyMaterials/>
       <Contact/>
-      {/* <Footer/> */}
-      {/* <Semester3/> */}
     </div>
   )
 }

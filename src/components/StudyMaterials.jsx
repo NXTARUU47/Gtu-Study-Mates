@@ -16,9 +16,6 @@ function StudyMaterials() {
       id: 1,
       title: "Semester 1",
       year: "First Year",
-      subjects: "-",
-      notes: "-",
-      papers: "-",
       icon: <FaBookOpen />,
       color: "indigo",
       description: "Build your foundation with essential engineering subjects.",
@@ -27,9 +24,6 @@ function StudyMaterials() {
       id: 2,
       title: "Semester 2",
       year: "First Year",
-      subjects: "-",
-      notes: "-",
-      papers: "-",
       icon: <FaCalculator />,
       color: "teal",
       description: "Strengthen your fundamentals and technical knowledge.",
@@ -38,9 +32,6 @@ function StudyMaterials() {
       id: 3,
       title: "Semester 3",
       year: "Second Year",
-      subjects: 6,
-      notes: 32,
-      papers: 16,
       icon: <FaCode />,
       color: "amber",
       description: "Start exploring core programming and engineering concepts.",
@@ -49,9 +40,6 @@ function StudyMaterials() {
       id: 4,
       title: "Semester 4",
       year: "Second Year",
-      subjects: 6,
-      notes: 35,
-      papers: 18,
       icon: <FaDatabase />,
       color: "violet",
       description:
@@ -61,9 +49,6 @@ function StudyMaterials() {
       id: 5,
       title: "Semester 5",
       year: "Third Year",
-      subjects: 6,
-      notes: 30,
-      papers: 15,
       icon: <FaLaptopCode />,
       color: "blue",
       description:
@@ -73,9 +58,6 @@ function StudyMaterials() {
       id: 6,
       title: "Semester 6",
       year: "Third Year",
-      subjects: 6,
-      notes: 34,
-      papers: 17,
       icon: <FaNetworkWired />,
       color: "rose",
       description:
@@ -85,9 +67,6 @@ function StudyMaterials() {
       id: 7,
       title: "Semester 7",
       year: "Final Year",
-      subjects: 5,
-      notes: 26,
-      papers: 13,
       icon: <FaGraduationCap />,
       color: "emerald",
       description: "Focus on advanced subjects and final-year preparation.",
@@ -96,9 +75,6 @@ function StudyMaterials() {
       id: 8,
       title: "Semester 8",
       year: "Final Year",
-      subjects: 5,
-      notes: 22,
-      papers: 11,
       icon: <FaGraduationCap />,
       color: "indigo",
       description: "Complete your GTU journey and prepare for your next step.",
@@ -170,8 +146,7 @@ function StudyMaterials() {
           </span>
 
           <h2 className="mt-5 text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-800">
-            Choose Your
-            <span className="block bg-gradient-to-r from-indigo-500 to-teal-500 bg-clip-text text-transparent">
+            Choose Your   <span className=" bg-gradient-to-r from-indigo-500 to-teal-500 bg-clip-text text-transparent">
               Semester
             </span>
           </h2>
@@ -226,7 +201,7 @@ function StudyMaterials() {
                 </p>
 
                 {/* Stats */}
-                <div className="mt-5 pt-5 border-t border-slate-100 grid grid-cols-3 gap-2 text-center">
+                {/* <div className="mt-5 pt-5 border-t border-slate-100 grid grid-cols-3 gap-2 text-center">
                   <div>
                     <p className="text-lg font-bold text-slate-700">
                       {semester.subjects}
@@ -250,7 +225,7 @@ function StudyMaterials() {
 
                     <p className="text-[11px] text-slate-400">Papers</p>
                   </div>
-                </div>
+                </div> */}
 
                 {/* Button */}
                 {/* Button */}

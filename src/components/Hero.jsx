@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-[calc(100vh-78px)] pt-28 pb-16 px-4 sm:px-6 lg:px-10 bg-gradient-to-br from-indigo-50 via-white to-teal-50 overflow-hidden"
+      className="relative min-h-[calc(100vh-78px)] pt-20  px-4 sm:px-6 lg:px-10 bg-gradient-to-br from-indigo-50 via-white to-teal-50 overflow-hidden"
     >
       {/* Background Decorations */}
       <div className="absolute top-20 left-10 w-32 h-32 bg-indigo-200/30 rounded-full blur-3xl" />
@@ -22,8 +22,6 @@ function Hero() {
                 🎓 Made for GTU Students
               </span>
             </div>
-
-            {/* Heading */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight text-slate-800">
               Your GTU Journey
               <br />
@@ -31,14 +29,10 @@ function Hero() {
                 Starts Here.
               </span>
             </h1>
-
-            {/* Description */}
             <p className="mt-6 max-w-xl mx-auto lg:mx-0 text-base sm:text-lg text-slate-500 leading-relaxed">
               Find GTU study materials, previous year papers, notes, syllabus
               and useful resources — all in one simple place.
             </p>
-
-            {/* Buttons */}
             <div className="mt-8 flex flex-col sm:flex-row items-center lg:justify-start justify-center gap-4">
               <a
                 href="#study-materials"

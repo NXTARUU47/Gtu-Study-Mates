@@ -9,11 +9,9 @@ function About() {
       <div className="max-w-[1200px] mx-auto">
         {/* Section Heading */}
         <div className="text-center max-w-2xl mx-auto">
-          <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-50 text-indigo-600 text-sm font-semibold">
-            🎓 About GTU StudyDesk
-          </span>
+          
 
-          <h2 className="mt-5 text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-800">
+          <h2 className=" text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-800">
             Everything You Need to
             <span className="block bg-gradient-to-r from-indigo-500 to-teal-500 bg-clip-text text-transparent">
               Study Smarter
