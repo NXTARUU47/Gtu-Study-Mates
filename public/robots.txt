@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nxtaruu47.github.io/gtu-study-desk/sitemap.xml
