@@ -14,23 +14,45 @@ import Semester7 from "./Semesters/Semester7";
 import Semester8 from "./Semesters/Semester8";
 import StudyMaterials from "./components/StudyMaterials";
 import About from "./components/About";
-
+import NotFound from "./components/NotFound";
 function ScrollToTop() {
   const { pathname } = useLocation();
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
-
   return null;
 }
 
 function Layout() {
+  const { pathname } = useLocation();
+  // List of all valid routes
+  const validRoutes = [
+    "/",
+    "/aboutus",
+    "/study-materials",
+    "/semester-1",
+    "/semester-2",
+    "/semester-3",
+    "/semester-4",
+    "/semester-5",
+    "/semester-6",
+    "/semester-7",
+    "/semester-8",
+    "/contact",
+  ];
+
+  // Check if current path matches any valid route
+  const isValidRoute = validRoutes.includes(pathname);
+
   return (
     <div className="min-h-screen flex flex-col bg-slate-50">
       <ScrollToTop />
-      <Header />
-      <main className="flex-1 pt-[70px] md:pt-[78px]">
+      
+      {/* Show Header only on valid routes */}
+      {isValidRoute && <Header />}
+
+      {/* Remove padding-top on 404 page so it centers nicely */}
+      <main className={`flex-1 ${isValidRoute ? "pt-[70px] md:pt-[78px]" : ""}`}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/aboutus" element={<About />} />
@@ -44,9 +66,12 @@ function Layout() {
           <Route path="/semester-7" element={<Semester7 />} />
           <Route path="/semester-8" element={<Semester8 />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
-      <Footer />
+
+      {/* Show Footer only on valid routes */}
+      {isValidRoute && <Footer />}
     </div>
   );
 }
